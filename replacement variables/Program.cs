@@ -13,9 +13,9 @@ namespace replacement_variables
             string name = "Иванов";
             string surname = "Иван";
             Console.WriteLine("Имя: " + name + ", фамилия: " + surname);
-            string c = name;
+            string temporaryValue = name;
             name = surname;
-            surname = c;
+            surname = temporaryValue;
             Console.WriteLine("Имя: " + name + ", фамилия: " + surname);
             Console.ReadKey();
         }
