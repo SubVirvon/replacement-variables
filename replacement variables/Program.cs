@@ -12,11 +12,10 @@ namespace replacement_variables
         {
             string name = "Иванов";
             string surname = "Иван";
-            string intermedia;
             Console.WriteLine("Имя: " + name + ", фамилия: " + surname);
-            intermedia = name;
+            string c = name;
             name = surname;
-            surname = intermedia;
+            surname = c;
             Console.WriteLine("Имя: " + name + ", фамилия: " + surname);
             Console.ReadKey();
         }
